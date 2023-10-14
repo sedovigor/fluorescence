@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     71017,       1466]
-NotebookOptionsPosition[     69669,       1417]
-NotebookOutlinePosition[     70015,       1432]
-CellTagsIndexPosition[     69972,       1429]
+NotebookDataLength[     71069,       1467]
+NotebookOptionsPosition[     69718,       1418]
+NotebookOutlinePosition[     70064,       1433]
+CellTagsIndexPosition[     70021,       1430]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -51,8 +51,8 @@ Cell[BoxData[{
      "759.5", ",", "722.0", ",", "695.4", ",", "662.8", ",", "638.3"}], 
     "}"}]}], 
   RowBox[{"(*", 
-   RowBox[{"Observed", " ", "apparent", " ", "fluorescence", " ", "ratios"}], 
-   "*)"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"Observed", " ", "fluorescence", " ", "intensities"}], "*)"}], 
+  ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"proteinConc0", "=", "4*^-7"}], 
   RowBox[{"(*", 
@@ -73,7 +73,8 @@ Cell[BoxData[{
    RowBox[{"Length", "[", "fluorescenceObserved", "]"}]}], 
   RowBox[{"(*", 
    RowBox[{"Number", " ", "of", " ", "vials"}], "*)"}], ";"}]}], "Input",
- CellChangeTimes->{3.9062867583168993`*^9}]
+ CellChangeTimes->{
+  3.9062867583168993`*^9, {3.906296503479986*^9, 3.9062965093099937`*^9}}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -877,8 +878,8 @@ Cell[BoxData[{
     "100000", ",", "92362", ",", "87655", ",", "81648", ",", "78948", ",", 
      "75518"}], "}"}]}], 
   RowBox[{"(*", 
-   RowBox[{"Observed", " ", "apparent", " ", "fluorescence", " ", "ratios"}], 
-   "*)"}], ";"}], "\n", 
+   RowBox[{"Observed", " ", "fluorescence", " ", "intensities"}], "*)"}], 
+  ";"}], "\n", 
  RowBox[{
   RowBox[{"volume0", "=", "2.3*^-3"}], 
   RowBox[{"(*", 
@@ -909,7 +910,7 @@ Cell[BoxData[{
      "step", " ", 
      RowBox[{"(", "injection", ")"}]}], ",", " ", "L"}], "*)"}], 
   ";"}]}], "Input",
- CellChangeTimes->{3.906286807826969*^9}]
+ CellChangeTimes->{3.906286807826969*^9, 3.9062965165800047`*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1436,36 +1437,36 @@ Cell[CellGroupData[{
 Cell[1135, 33, 206, 4, 56, "Section"],
 Cell[CellGroupData[{
 Cell[1366, 41, 95, 1, 39, "Subsubsection"],
-Cell[1464, 44, 1142, 31, 92, "Input"]
+Cell[1464, 44, 1180, 32, 92, "Input"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2643, 80, 110, 1, 39, "Subsubsection"],
+Cell[2681, 81, 110, 1, 39, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[2778, 85, 21517, 366, 312, "Input"],
-Cell[24298, 453, 1404, 21, 23, "Print"],
-Cell[25705, 476, 15420, 298, 250, "Output"],
-Cell[41128, 776, 1232, 16, 23, "Print"],
-Cell[42363, 794, 3395, 47, 31, "Output"]
+Cell[2816, 86, 21517, 366, 312, "Input"],
+Cell[24336, 454, 1404, 21, 23, "Print"],
+Cell[25743, 477, 15420, 298, 250, "Output"],
+Cell[41166, 777, 1232, 16, 23, "Print"],
+Cell[42401, 795, 3395, 47, 31, "Output"]
 }, Open  ]],
-Cell[45773, 844, 558, 9, 49, "Text"]
+Cell[45811, 845, 558, 9, 49, "Text"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[46380, 859, 284, 5, 70, "Section"],
+Cell[46418, 860, 284, 5, 70, "Section"],
 Cell[CellGroupData[{
-Cell[46689, 868, 117, 1, 39, "Subsubsection"],
-Cell[46809, 871, 1311, 40, 70, "Input"]
+Cell[46727, 869, 117, 1, 39, "Subsubsection"],
+Cell[46847, 872, 1322, 40, 112, "Input"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[48157, 916, 110, 1, 70, "Subsubsection"],
+Cell[48206, 917, 110, 1, 39, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[48292, 921, 7338, 197, 70, "Input"],
-Cell[55633, 1120, 620, 12, 70, "Print"],
-Cell[56256, 1134, 12380, 257, 70, "Output"],
-Cell[68639, 1393, 378, 5, 70, "Print"],
-Cell[69020, 1400, 435, 7, 70, "Output"]
+Cell[48341, 922, 7338, 197, 392, "Input"],
+Cell[55682, 1121, 620, 12, 23, "Print"],
+Cell[56305, 1135, 12380, 257, 233, "Output"],
+Cell[68688, 1394, 378, 5, 23, "Print"],
+Cell[69069, 1401, 435, 7, 31, "Output"]
 }, Open  ]],
-Cell[69470, 1410, 171, 3, 70, "Text"]
+Cell[69519, 1411, 171, 3, 30, "Text"]
 }, Open  ]]
 }, Open  ]]
 }
